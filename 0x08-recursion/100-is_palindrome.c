@@ -18,7 +18,7 @@ int is_palindrome(char *s)
 
 	for (i = (0); i < half_length; i++)
 	{
-		if (s[j] != s[length - i - 1]
+		if (s[i] != s[length - i - 1])
 				return (0); /* Not a palindrome */
 	}
 
