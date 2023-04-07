@@ -8,9 +8,8 @@
  *
  *  Description: This function takes a string as an
  *  input and recursively prints it in reverse order,
- *  it starts by calling itself with the next character
- *  in the string, and once the end of the string is reached,
- *  it prints the characters in reverse order.
+ *  starting from the last character in the string
+ *  and ending with the first character.
  *
  *  @s: Pointer to the string to point.
  */
