@@ -11,21 +11,15 @@
  */
 int is_palindrome(char *s)
 {
-	int i, j;
+	int length = strlen(s);
+	int half_length = length / 2;
+	int i;
 
 
-	i = 0;
-	j = strlen(s) - 1;
-
-
-	while (i < j)
+	for (i = (0); i < half_length; i++)
 	{
-		if (s[i] != s[j])
-			return (0); /* Not a palindrome */
-
-
-		i++;
-		j--;
+		if (s[j] != s[length - i - 1]
+				return (0); /* Not a palindrome */
 	}
 
 
