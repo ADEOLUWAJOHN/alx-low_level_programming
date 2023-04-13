@@ -7,6 +7,7 @@
  *
  * Return: a pointer to the duplicated string, or NULL if it fails
  */
+int _putchar(char c);
 char *_strdup(char *str)
 {
 	char *dup_str;
